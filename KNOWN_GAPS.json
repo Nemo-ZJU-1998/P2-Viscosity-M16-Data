@@ -1,0 +1,12 @@
+[
+  "Exact ChatGPT/Codex model or service version identifiers were not recorded in the examined provenance.",
+  "Figure 3(a-g): approved artwork and the cluster/network analysis code and tables are included; a self-contained scene/render-input bundle for regenerating the molecular snapshot artwork was not located. Raw trajectories remain available on request.",
+  "SI Figure S4(a): the original experimental density source and its uncertainty remain unverified; the supplied material does not establish a traceable original experimental-density table/source and uncertainty definition.",
+  "Per-item source completeness is recorded in SOURCE_GAPS_BY_ITEM.csv. An entry in SOURCE_INDEX is not a claim that its full raw-data chain is independently reproduced. Figure S1/S2 panel inputs and some archived diagnostics remain partial.",
+  "Figure S12: IPADM2BOL at loading 0: adopted Figure 2 centre 5.66 cP versus SI regression 5.767436 +/- 0.128911 cP. The matching original regression for the adopted centre has not been located; the alternative SI regression SE must not be attached to that centre. Adopted values remain unchanged. The discrepancy remains unresolved.",
+  "Figure S8: EEDIPEDA at loading 0: adopted Figure 2 centre 1.91 cP versus SI regression 1.926442 +/- 0.071318 cP. The matching original regression for the adopted centre has not been located; the alternative SI regression SE must not be attached to that centre. Adopted values remain unchanged. The discrepancy remains unresolved.",
+  "Figure S7: EEMPPA at loading 0.15: adopted Figure 2 centre 8.90 cP versus SI regression 8.092335 +/- 1.121026 cP. The matching original regression for the adopted centre has not been located; the alternative SI regression SE must not be attached to that centre. Adopted values remain unchanged. The discrepancy remains unresolved.",
+  "Figure 1: an editable structure-illustration source verified against the release was not identified in the curated archive.",
+  "Some original plotting scripts require author-specific source paths. Use the portable entry points listed in CODE_INDEX.csv for the tested numerical reproductions.",
+  "Figure labels in this release describe the indexed data snapshot; retained complete tables and original filenames can use historical numbering."
+]

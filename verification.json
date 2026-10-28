@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "checks": [
+    {
+      "script": "verify_numerical_inputs.py",
+      "exit_code": 0
+    },
+    {
+      "script": "recalculate_tbu.py",
+      "exit_code": 0
+    },
+    {
+      "script": "recalculate_highloading.py",
+      "exit_code": 0
+    },
+    {
+      "script": "reproduce_geometry.py",
+      "exit_code": 0
+    },
+    {
+      "script": "motion_contact_data.zip!validate_source_data.py",
+      "exit_code": 0
+    },
+    {
+      "script": "plot_selected_regressions.py",
+      "exit_code": 0
+    },
+    {
+      "script": "plot_acceleration_comparison.py",
+      "exit_code": 0
+    },
+    {
+      "script": "plot_numerical_data.py",
+      "exit_code": 0
+    }
+  ],
+  "data_manifest_sha256": "ce9be89a117766a5a7c30bd1fb7b1cf9caad1b8382dca5cb01b3809b54b424fa",
+  "scope": "Supplied numerical inputs, exported inverse-viscosity series, geometric descriptors and selected plots. No fresh MD, full trajectory reanalysis or molecular-scene reconstruction.",
+  "numbering": "Source filenames may retain historical labels. Consult SOURCE_INDEX.csv and the numbering map for this release snapshot.",
+  "archive_sha256": "a0bb27a1c1b95caa4ca1f9700cb9562e08c14e383b4006cbe188f35f0fb21e51",
+  "archive_bytes": 21595545,
+  "version": "data-20261028-v1",
+  "clean_environment": true,
+  "fresh_archive_extraction": true,
+  "raw_trajectories_included": false,
+  "figure_outputs": [
+    "acceleration_window_comparison.png",
+    "composition_viscosity.png",
+    "FigureS15_verified_subsets.png",
+    "free_volume_data.png",
+    "motion_and_contact.png",
+    "viscosity_data.png"
+  ]
+}

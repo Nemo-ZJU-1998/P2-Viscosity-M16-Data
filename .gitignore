@@ -1,0 +1,10 @@
+data/
+results/
+.venv/
+__pycache__/
+*.zip
+*.trr
+*.xtc
+*.tng
+*.dcd
+*.nc

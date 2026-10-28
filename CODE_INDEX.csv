@@ -1,0 +1,9 @@
+script,purpose,dependencies,arguments
+verify_numerical_inputs.py,Archive checksums and supplied numerical comparisons,standard library,--data data
+recalculate_tbu.py,Nine tBuNHDiGly extrapolations from inverse-viscosity time series,standard library,--data data
+recalculate_highloading.py,Two high-loading extrapolations and loading fits from compact exports,standard library,--data data
+reproduce_geometry.py,Optimized contact distances and supplied geometric summaries,standard library,--data data
+plot_selected_regressions.py,Me3SiNHGly selected regressions and confidence bands,numpy; matplotlib,--data data --output results/plots
+plot_acceleration_comparison.py,Supplied acceleration-window sensitivity estimates,matplotlib,--data data --output results/plots
+plot_numerical_data.py,Four numerical overview plots; no raw-coordinate reanalysis,numpy; matplotlib,--data data --output results/plots
+reproduce.py,Combined verification and optional plotting,standard library; optional plotting dependencies,--data data --output results --plots
