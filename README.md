@@ -2,6 +2,10 @@
 
 Numerical data and analysis code for a study of viscosity, aggregate composition, molecular motion and fractional free volume in single-component, water-lean CO2 absorbents.
 
+## Simulation source programs
+
+The [simulation source guide](simulation/README.md) provides the original workflow generators, their shared dependencies and molecular input example, from SMILES/RESP preparation through GROMACS and postprocessing. Generated per-loading job instances are excluded because the source programs create them.
+
 ## Download
 
 Download **[viscosity-data-20261028-v2.zip](https://github.com/Nemo-ZJU-1998/Water-Lean-Absorbent-Viscosity/releases/download/data-20261028-v2/viscosity-data-20261028-v2.zip)** from the [versioned data release](https://github.com/Nemo-ZJU-1998/Water-Lean-Absorbent-Viscosity/releases/tag/data-20261028-v2). The archive includes the scripts below, numerical inputs, small simulation-parameter files and source indexes. Raw trajectories are not included.
