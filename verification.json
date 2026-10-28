@@ -39,11 +39,16 @@
       "exit_code": 0
     }
   ],
-  "data_manifest_sha256": "0ce87dee634424c16fb5970ab0a39e040d0823c3e6d12d3b5780b170ffe05d86",
+  "data_manifest_sha256": "37f7e9e521da2d1482c8964638a60284966f3d17d44074a9011f197478f6f831",
   "scope": "Supplied numerical inputs, exported inverse-viscosity series, geometric descriptors and selected plots. No fresh MD, full trajectory reanalysis or molecular-scene reconstruction.",
   "numbering": "Source filenames may retain historical labels. Consult SOURCE_INDEX.csv and the numbering map for this release snapshot.",
-  "archive_sha256": "248d50cd6595a4c3a17bc529acefbfe1f1e67206ea03e6690510124a71d66646",
-  "archive_bytes": 22449127,
+  "archive_sha256": "d104e42eb7d58bcd541796fb6d4ad8f552ca29f9be7932976be0c4991b3f090b",
+  "archive_bytes": 22451469,
   "test_environment": "Fresh Python 3.12 virtual environment; separately extracted archive; pip packages in environment.txt",
-  "post_test_changes": "Figure 5 artwork and documentation only; numerical inputs and all tested scripts unchanged."
+  "post_test_changes": "Figure 5 artwork, original layout-script archive and source-index metadata only; numerical inputs and tested entry points unchanged.",
+  "final_source_comparison": {
+    "status": "PASS",
+    "source_sha256": "e71cc4a863b74af16a66ea11da16574fbc01fb77c8288802c4f73dd2a88b6a81",
+    "matching_current_inputs_tables_artwork": 70
+  }
 }

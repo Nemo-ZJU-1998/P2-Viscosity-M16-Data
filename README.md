@@ -4,14 +4,14 @@ Numerical data and analysis code for a study of viscosity, aggregate composition
 
 ## Download
 
-Download **[viscosity-data-20261028-v1.zip](https://github.com/Nemo-ZJU-1998/Water-Lean-Absorbent-Viscosity/releases/download/data-20261028-v1/viscosity-data-20261028-v1.zip)** from the [versioned data release](https://github.com/Nemo-ZJU-1998/Water-Lean-Absorbent-Viscosity/releases/tag/data-20261028-v1). The archive includes the scripts below, numerical inputs, small simulation-parameter files and source indexes. Raw trajectories are not included.
+Download **[viscosity-data-20261028-v2.zip](https://github.com/Nemo-ZJU-1998/Water-Lean-Absorbent-Viscosity/releases/download/data-20261028-v2/viscosity-data-20261028-v2.zip)** from the [versioned data release](https://github.com/Nemo-ZJU-1998/Water-Lean-Absorbent-Viscosity/releases/tag/data-20261028-v2). The archive includes the scripts below, numerical inputs, small simulation-parameter files and source indexes. Raw trajectories are not included.
 
 ## Run
 
 Use Python 3.12. From the directory containing the downloaded ZIP:
 
 ```bash
-python -m zipfile -e viscosity-data-20261028-v1.zip data
+python -m zipfile -e viscosity-data-20261028-v2.zip data
 python data/reproduce.py --data data --output results
 ```
 
