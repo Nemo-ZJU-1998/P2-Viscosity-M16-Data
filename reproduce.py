@@ -33,7 +33,7 @@ def main():
         if proc.returncode:raise RuntimeError(proc.stderr or proc.stdout)
         print('Motion and continuous-contact data: PASS',flush=True)
     if a.plots:
-        for name in ['plot_selected_regressions.py','plot_acceleration_comparison.py','plot_numerical_data.py']:run(name,base+['--output',str(o/'plots')])
+        for name in ['plot_selected_regressions.py','plot_acceleration_comparison.py','plot_numerical_data.py','plot_cluster_size.py']:run(name,base+['--output',str(o/'plots')])
     report={'status':'PASS','python':sys.version,'checks':checks,'data_manifest_sha256':hashlib.sha256((d/'SHA256.json').read_bytes()).hexdigest(),'scope':'Supplied numerical inputs, exported inverse-viscosity series, geometric descriptors and selected plots. No fresh MD, full trajectory reanalysis or molecular-scene reconstruction.','numbering':'Source filenames may retain historical labels. Consult SOURCE_INDEX.csv and the numbering map for this release snapshot.'}
     (o/'verification.json').write_text(json.dumps(report,indent=2),encoding='utf-8')
     print('PASS: results recorded in '+str(o/'verification.json'))

@@ -7,3 +7,4 @@ plot_selected_regressions.py,Me3SiNHGly selected regressions and confidence band
 plot_acceleration_comparison.py,Supplied acceleration-window sensitivity estimates,matplotlib,--data data --output results/plots
 plot_numerical_data.py,Four numerical overview plots; no raw-coordinate reanalysis,numpy; matplotlib,--data data --output results/plots
 reproduce.py,Combined verification and optional plotting,standard library; optional plotting dependencies,--data data --output results --plots
+plot_cluster_size.py,16-system cluster-size distributions and composition conservation,numpy; pandas; matplotlib,--data data --output results/plots

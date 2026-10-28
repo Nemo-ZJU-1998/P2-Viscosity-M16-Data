@@ -22,11 +22,11 @@ python -m pip install -r data/requirements.txt
 python data/reproduce.py --data data --output results --plots
 ```
 
-The tested plotting versions are NumPy 2.3.5 and Matplotlib 3.11.2. The complete environment is listed in `environment.txt`.
+The tested plotting versions are NumPy 2.3.5, pandas 3.0.1 and Matplotlib 3.11.2. The complete environment is listed in `environment.txt`.
 
 ## Outputs
 
-`results/verification.json` records the checks and their exit codes. `results/plots/` contains six figures in PNG and PDF: four numerical overviews, the selected Me3SiNHGly regressions, and the acceleration-sensitivity comparison. Overview plots reproduce the supplied numerical relationships, not the original publication layout or molecular illustrations.
+`results/verification.json` records the checks and their exit codes. `results/plots/` contains seven figures in PNG and PDF: four numerical overviews, the selected Me3SiNHGly regressions, the acceleration-sensitivity comparison, and the 16-system cluster-size distributions. Overview plots reproduce the supplied numerical relationships, not the original publication layout or molecular illustrations.
 
 Expected results include 49 experimental-comparison pairs with a mean absolute log10 error of **0.1369936364**, 134 retained viscosity-loading inputs, and 144 free-volume conditions. Recalculation of the Si-free tBuNHDiGly series gives **9.490217 +/- 0.581163 cP** at loading 0.25.
 
@@ -37,12 +37,13 @@ Expected results include 49 experimental-comparison pairs with a mean absolute l
 | Viscosity comparisons and loading series | `numerical/data/`, `viscosity/current/` | `verify_numerical_inputs.py`, `plot_numerical_data.py` |
 | tBuNHDiGly viscosity extrapolation | `viscosity/tBu_corrected/` | `recalculate_tbu.py` |
 | High-loading viscosity extrapolation | `high_loading_viscosity.zip` | `recalculate_highloading.py` |
+| Cluster-size distributions | `SI/cluster_size/inputs/` | `plot_cluster_size.py` |
 | Aggregate composition and viscosity | `numerical/data/Figure3h_16systems.csv` | `plot_numerical_data.py` |
 | Molecular displacement and contact persistence | `motion_contact_data.zip` | `reproduce.py`, `plot_numerical_data.py` |
 | Fractional free volume | `FFV/current/` | `plot_numerical_data.py` |
 | Selected regression and acceleration comparisons | `SI/Me3SiNHGly_S15/`, `SI/compact/` | `plot_selected_regressions.py`, `plot_acceleration_comparison.py` |
 
-[SOURCE_INDEX.csv](SOURCE_INDEX.csv) gives figure/table-level locations. [CODE_INDEX.csv](CODE_INDEX.csv) lists runnable entry points. The numbering map identifies the labels used in this data release; source filenames and complete supporting tables can retain earlier labels.
+[SOURCE_INDEX.csv](SOURCE_INDEX.csv) gives figure/table-level locations. [CODE_INDEX.csv](CODE_INDEX.csv) lists runnable entry points. The numbering map identifies the 23 SI figures and 13 SI tables indexed in this data release; source filenames and complete supporting tables can retain earlier labels. `ARCHIVED_SOURCE_INDEX.csv` identifies data retained for transparency but no longer displayed as numbered SI items. The acceleration-sensitivity plot is supplementary diagnostic material.
 
 ## Interpretation and scope
 
