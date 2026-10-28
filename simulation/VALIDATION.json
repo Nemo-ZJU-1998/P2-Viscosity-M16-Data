@@ -1,0 +1,417 @@
+{
+  "source_file_count": 80,
+  "source_script_count": 68,
+  "referenced_shared_helpers": [
+    "NPT_Temperature_density_plot.py",
+    "NVT_Temperature_plot.py",
+    "Time_Pressure_plot.py",
+    "Vis_plot.py",
+    "acc_vis_line_regression.py",
+    "combine_NPT_density.py",
+    "combine_images.py",
+    "density_check.py",
+    "edr_output.sh",
+    "em_Potential_plot.py",
+    "extract_energy_log.py",
+    "extract_viscosity.py",
+    "linear_regression_analysis.py",
+    "plot_viscosity_acceleration.py",
+    "process_gromacs_files.py",
+    "process_viscosity_data.py",
+    "remove_FF.py",
+    "replace_charges.py",
+    "velocity_profile.py"
+  ],
+  "syntax_checks": [
+    {
+      "path": "Viscosity_cal/21/Amine_viscosity.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/21/calculate_and_plot_energies.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/21/combine_images.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/density_summary.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/21/extract_hbonds.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/freevolume.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/21/freevolume_plot.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/gromacs_viscosity.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/21/modify.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/plot_coordination.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/plot_energies.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/plot_hbonds.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/post_analysis.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/21/process_rdf.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/21/process_rdf_new.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/21/RESP.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/21/run_hbond_analysis.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/21/viscosity_result.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/Amine_viscosity.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/script/calculate_and_plot_energies.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/script/cluster.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/combine_images.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/combine_images2.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/density_summary.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/script/do_plot.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/script/extract_hbonds.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/freevolume.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/script/freevolume_plot.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/gromacs_viscosity.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/script/modify.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/plot_coordination.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/plot_density.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/plot_energies.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/plot_hbonds.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/script/post_analysis.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/script/process_rdf.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/script/process_rdf_new.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/script/RESP.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/script/viscosity_result.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/do_calculation.slurm",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/do_plot.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/do_structure.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "Viscosity_cal/extract_all_viscosity.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/viscosity_summary.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/RDF_results/rdf_loading.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/RDF_results/rdf_loading_combine.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/rdf_results/rdf_loading.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "Viscosity_cal/21/rdf_results/rdf_loading_combine.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/combine_images.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/combine_NPT_density.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/linear_regression_analysis.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/em_Potential_plot.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/NPT_Temperature_density_plot.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/density_check.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/velocity_profile.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/edr_output.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    },
+    {
+      "path": "dataprocess/extract_energy_log.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/extract_viscosity.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/process_viscosity_data.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/plot_viscosity_acceleration.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/NVT_Temperature_plot.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/Vis_plot.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/Time_Pressure_plot.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/replace_charges.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/remove_FF.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/process_gromacs_files.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "dataprocess/acc_vis_line_regression.py",
+      "kind": "Python",
+      "exit_code": 0
+    },
+    {
+      "path": "variants/gromacs_viscosity_from_run_directory.sh",
+      "kind": "Bash",
+      "exit_code": 0,
+      "diagnostics": ""
+    }
+  ],
+  "MD_rerun_performed": false,
+  "generated_per_loading_job_files_included": false,
+  "isolated_job_generation": [
+    {
+      "variant": "directory_21",
+      "generated_jobs": 22,
+      "generated_job_syntax_pass": 22,
+      "loading_inputs": 9,
+      "molecule_counts_pass": true,
+      "external_jobs_submitted": 0
+    },
+    {
+      "variant": "shared_library",
+      "generated_jobs": 22,
+      "generated_job_syntax_pass": 22,
+      "loading_inputs": 9,
+      "molecule_counts_pass": true,
+      "external_jobs_submitted": 0
+    }
+  ],
+  "path_configuration_test": {
+    "status": "PASS",
+    "refuses_existing_output": true,
+    "jobs_submitted": 0
+  }
+}
